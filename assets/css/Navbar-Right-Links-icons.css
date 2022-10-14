@@ -1,0 +1,103 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  #div-conteudo {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    width: 75px;
+  }
+}
+
+.btn {
+  width: 100%;
+}
+
+#btn-contactar {
+}
+
+@media (min-width: 768px) {
+  #btn-contactar {
+    width: auto;
+  }
+}
+
+#rodape {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 0px;
+}
+
+#estatus-busca {
+}
+
+#div-contactar {
+  width: 100%;
+  height: auto;
+}
+
+#section-formulario {
+  color: rgb(253,254,255);
+  width: 100%;
+  height: auto;
+}
+
